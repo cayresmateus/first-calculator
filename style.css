@@ -54,3 +54,30 @@ button:active{
 .operator-btn:active{
     background-color: hsl(35, 100%, 75%);
 }
+@media only screen and (max-width: 600px) {
+    #keys{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+        padding: 10px;
+    }
+    #calculator{
+        font-family: Arial, sans-serif;
+        background-color: hsl(0, 0%, 15%);
+        border-radius: 15px;
+        max-width: 500px;
+        
+    }
+    button{
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        border: none;
+        background-color: hsl(0, 0%, 30%);
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        
+    }
+
+}
